@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: #F2F6FF;
+}
+
+header{
+    padding: 16px 78px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.header-div{
+    display: inline-block;
+    
+}
+
+.explore-div{
+    display: inline-block;
+    margin: 0px 20px 0px 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 100%;
+
+}
+
+.topbar-text {
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin: 0;
+}
+.topbar-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.topbar-btn{
+    Padding: 12px 18px;
+    Width: auto;
+    color: #0084ff;
+    border-radius: 25px;
+    Border: 1px solid #0084ff;
+    Margin: 5px;
+    Cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;    
+    color: #fff;
+    background:linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+
+#header-logo{
+    Width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.9px;
+    line-height: 36.288px;
+    font-stretch: 100%;
+
+}
+
+#header-sub-heading{
+    Margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.9px;
+    line-height: 12.8px;
+}
+
+
+
+.explore-text{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    height: 12px;
+    text-align: center;
+    
+        
+}
+
+.fa-chevron-down{
+    padding-left: 8px;
+    padding-top: 0px;
+}
+
+/* MAIN BODY CSS */
+
+/* Category div START */
+
+main{
+    background-color: #F2F6FF;
+    padding-top: 32px;
+}
+
+.main-div{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom:20.313px;
+}
+
+
+.trending-post{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 24px;
+    
+}
+
+.filter-text{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-top: 13.600px;
+    margin-bottom: 13.600px;
+    
+}
+
+.category-wrap{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    
+}
+
+.fa-filter{
+    color: #0084ff;
+}
+
+.category-item{
+    Padding: 6px 14px;
+    Width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    Border: 1px solid #0084ff;
+    Margin: 5px;
+    Cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.active-category{
+    color: #fff;
+    background:linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+.category-item-wrap{
+    padding-bottom: 20px;
+}
+
+/* Category div CSS END */
+
+/* ------------------------------------------------------------------------- */
+
+/* CARD CSS START */
+
+.course-card-wrap{
+    display: flex;
+}
+
+.course-card{
+    width: 30.3%;
+    border: 1px solid rgba(0,168,255,.3);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 20px;
+}
+
+.card-image{
+    height: 176px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.course-card-content{
+    padding : 11.20px 24px;
+}
+
+.card-title{
+    font-size: 18px;
+    text-align:  left;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.card-author{
+    color: #0096ff;
+    padding-top: 4px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 33px;
+    margin: 0;
+}
+
+.card-date{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+.card-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,.6);
+    margin: 4px 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* COURSE CARD CSS END */
+
+
+/* Footer CSS Start */
+
+footer{
+    background-color: #172146;
+    padding: 80px 16%;
+}
